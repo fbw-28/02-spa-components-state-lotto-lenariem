@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    width: 100%;
+}
+
+.headers {
+    text-align: center;
+}
+
+h3 {
+    color: rgb(39, 35, 35);
+}
+
+.numbers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    width: 100%;
+    justify-content: center;
+    /* align-content: center; */
+}
+
+span {
+    width: 58px;
+    height: 52px;
+    border: 2px solid darkblue;
+    border-radius: 100%;
+    padding: 1%;
+    padding-top: 1.8%;
+    font-size: 1.5rem;
+    margin: 15px;
+    text-align: center;
+}
+
+.special-num {
+    background-color: rgba(0, 255, 255, 0.342);
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    margin-top: 2%;
+}
+.btn {
+    border-radius: 3%;
+    margin: 3%;
+    padding: 2%;
+    outline: none;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.reset-btn {
+    width: 200px;
+    height: 75px;
+    border: 1px solid rgba(0, 255, 255, 0.342);
+}
+
+.numbers-btn {
+    width: 300px;
+    height: 75px;
+    background-color: rgba(0, 255, 255, 0.342);
+}
