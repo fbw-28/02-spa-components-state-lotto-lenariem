@@ -5,21 +5,14 @@ import Buttons from './components/Buttons';
 import './App.css';
 
 
-
-
-
-function App() {
+export default function App() {
   return (
     <div className="App">
       <Headers />
-      <div className="numbers">
-        <Numbers />
-      </div>
-      <div className="btns">
-        <Buttons />
-      </div>
+      <Numbers />
+      <Buttons />
     </div>
   );
 }
 
-export default App;
+
