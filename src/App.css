@@ -3,6 +3,7 @@ body {
     font-size: 2rem;
     margin: 0;
     box-sizing: border-box;
+    background-color: rgb(231, 197, 156);
 }
 
 .App {
@@ -42,8 +43,7 @@ span {
     margin: 15px;
     text-align: center;
 }
-
-.special-num {
+span:nth-child(7) {
     background-color: rgba(0, 255, 255, 0.342);
 }
 
